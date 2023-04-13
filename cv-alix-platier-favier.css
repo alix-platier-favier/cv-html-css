@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
+    background: linear-gradient(to bottom right, #75b8e6 0%, #f3d4b7 100%);
     padding: 0;
     margin: 0;
     border: none;
@@ -19,8 +19,8 @@ a {
 
 
 .background.gradient {
-    background: #50a3a2;
-    background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
+    background: #75b8e6;
+    background: linear-gradient(to bottom right, #75b8e6 0%, #f3d4b7 100%);
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -50,7 +50,7 @@ input, textarea, button {
 
 input:focus, textarea:focus, button:focus {
     color: #171717;
-    border-bottom: 1px solid #2eca7f;
+    border-bottom: 1px solid #f3d4b7;
 }
 
 .title{
@@ -71,7 +71,7 @@ input:focus, textarea:focus, button:focus {
     top: 0;
     width: 30px;
     height: 30px;
-    background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    background: linear-gradient(135deg, #f3d4b7 0%, rgba(46, 202, 127, 0.01) 100%);
     z-index: -1;
     border-radius: 30px;
 }
@@ -162,7 +162,7 @@ header nav a .link{
 }
 
 header nav a:hover {
-    color: #2eca7f;
+    color: #75b8e6;
 }
 
 main{
@@ -216,7 +216,7 @@ main .profile{
 
 .profile-profession{
     font-size: 14px;
-    color: #2eca7f;
+    color: #6698bb;
     line-height: 14px;
     font-weight: 400;
 }
@@ -229,7 +229,7 @@ main .profile{
 
 .profile-social a:hover{
     text-decoration: none;
-    color: #2eca7f;
+    color: #6698bb;
 }
 
 .profile-buttons{
@@ -244,13 +244,13 @@ main .profile{
     top: 0;
     width: 100%;
     height: 1px;
-    background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at left, #f3d4b7 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 .profile-buttons a{
     position: relative;
-    width: 50%;
-    height: 70px;
+    width: 110%;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -264,17 +264,7 @@ main .profile{
 
 
 .profile-buttons a:hover{
-    color: #2eca7f;
-}
-
-.profile-buttons a:first-child::before, .profile-buttons a:first-child::after{
-        content: '';
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 1px;
-        height: 100%;
-        background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    color: #6698bb;
 }
 
 .profile-buttons a i{
@@ -324,7 +314,7 @@ main .profile{
     top: 0;
     width: 1px;
     height: 100%;
-    background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at top, #f3d4b7 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 .about-services article{
@@ -341,8 +331,8 @@ main .profile{
     height: 60px;
     text-align: center;
     font-size: 32px;
-    color: #2eca7f;
-    background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    color: #6698bb;
+    background: linear-gradient(135deg, #f3d4b7 0%, rgba(46, 202, 127, 0.01) 100%);
     border-radius: 60px;
     display: flex;
     justify-content: center;
@@ -384,7 +374,7 @@ main .profile{
     width: 40px;
     height: 40px;
     font-size: 26px;
-    color: #2eca7f;
+    color: #6698bb;
 }
 
 .resume-line{
@@ -425,11 +415,11 @@ main .profile{
 }
 
 .resume-line .date.active{
-    color: #2eca7f;
+    color: #6698bb;
 }
 
 .resume-line .date.active::before{
-    background: #2eca7f;
+    background: #6698bb;
 }
 
 .resume-line .name{
@@ -478,7 +468,7 @@ main .profile{
 }
 
 .resume-skills > div section > div > div > div{
-    background: #2eca7f;
+    background: #6698bb;
     height: 4px;
 }
 
@@ -500,7 +490,7 @@ main .profile{
     width: 40px;
     height: 40px;
     font-size: 26px;
-    color: #2eca7f;
+    color: #6698bb;
 }
 
 
@@ -533,7 +523,7 @@ main .contact{
 
 @media only screen and (min-width: 1040px) {
     .selected{
-        color: #2eca7f;
+        color: #6698bb;
     }
     .page{
         position: absolute;
